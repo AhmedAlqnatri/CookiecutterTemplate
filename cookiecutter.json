@@ -1,0 +1,10 @@
+{
+    "directory_name": "python_example_project",
+    "project_name": "python_example_project",
+    "author": "Ahmed Alqnatri",
+    "email": "alqnatriahmed@gmail.com",
+    "description": "A template Python project",
+    "license": "MIT",
+    "version": "0.1.0",
+    "python_version": "^3.10",
+}
