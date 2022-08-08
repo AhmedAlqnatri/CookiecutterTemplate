@@ -1,24 +1,24 @@
 [tool.poetry]
-name = "{{cookiecutter.directory_name}}"
+name = "make_pairs"
 version = "0.1.0"
 description = ""
-authors = ["{{cookiecutter.author}} <{{cookiecutter.email}}>"]
+authors = ["Ahmed Alqnatri <alqnatriahmed@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "{{cookiecutter.python_version}}"
+python = "^3.10"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.1"
 flake8 = "^5.0.3"
 autopep8 = "^1.6.0"
 pylint = "^2.14.5"
+pytest-watch = "^4.2.0"
+ptw = "^1.0.1"
 
 [tool.pytest.ini_options]
 minversion = "7.0"
 addopts = "-ra -q"
-testpaths = [
-    "tests",
-]
+testpaths = ["test"]
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
