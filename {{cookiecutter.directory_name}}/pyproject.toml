@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "make_pairs"
+name = "{{cookiecutter.project_name}}"
 version = "0.1.0"
 description = ""
 authors = ["Ahmed Alqnatri <alqnatriahmed@gmail.com>"]
